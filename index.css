@@ -1,0 +1,100 @@
+body{
+	background: url("home.jpg"); /*keep the selected background*/
+text-align: center;
+
+}
+.logo{
+    
+	margin-right: 370px; /*keep space given in right*/
+	border-radius: 50%;  /*reduce the edges by 50%*/
+}
+.craft{
+	display: inline-block;
+	display: flex;
+	flex-direction: row; /*keep the list in row*/
+    width: 50%
+    height: 100px;
+    margin-left:1%;/*keep space  given in left*/
+    margin-top: 2px;/*keep space given in top*/
+
+}
+.quote{
+	height: 400px;/*fix the height given*/
+	width: 100%;/*fix the width given*/
+}
+.box1{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+
+}
+a :hover{/*change the color when touched by pointer*/
+	background: #AADA69;
+
+}
+.box2{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;/*keep space in all sides*/
+}
+.box3{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;/*keep space given in al side*/
+}
+.box4{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box5{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box6{
+
+	height: 80px;
+	width: 130px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+
+.create{
+font-family: cursive;/*write in different style*/
+color: pink;
+}
+.deep{
+	font-family: cursive;
+	color: white;
+}
+.foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+	border-top-height: 10px;/*fix the height of the border*/
+	border-top-style: dotted;/*keep border in dotted style*/
+}
+.h3{
+	margin: 10px;
+}
+
+@media screen and (max-width: 700px){/*make responsive in all the media devices*/
+	.box1,.box2,.box3,.box4,.box5,.box6{
+		height: 40px;
+	}
+	.craft{
+		flex-wrap: wrap;/*wrap the content choosen*/
+	}
+}

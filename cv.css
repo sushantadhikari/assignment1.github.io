@@ -1,0 +1,234 @@
+body{
+	background: url("background.jpg"); 
+text-align: center;
+
+}
+.logo{
+
+	margin-right: 370px;/*keeps space given in right*/
+	border-radius: 50%;
+}
+.craft{
+	display: inline-block;/*maintain in box*/
+	display: flex;
+	flex-direction: row; /*keep the given list in row*/
+    width: 50%
+    height: 100px;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+.box1{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
+
+}
+a :hover{/*change the color when touched by pointer*/
+	background: #AADA69;
+
+}
+.box2{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box3{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box4{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box5{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box6{
+
+	height: 80px;
+	width: 130px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.title{
+	font-family: algerian;/*write the text in different style*/
+	font-size: 30px;
+}
+.container{
+	display: flex;
+    flex-direction: row;/*keep the given list in row*/
+}
+.img{
+	border-radius: 50%;
+}
+.name{
+	margin-left: 200px;
+	margin-top: 60px;
+	font-family: cursive;/*write the text in different style*/
+	font-size: 25px;
+}
+.box{
+	border-style: solid;
+	height: 50px;
+	width: 550px;
+	margin-left: 30%;
+	text-align: center;/*write the text in just middle of the box*/
+}
+section{
+	margin-top: 30px;
+	margin-left: 20%;
+	border-style: solid;/*keep the border allround with black line*/
+	width: 800px;
+	margin-bottom: 30px;
+}
+.p{
+	margin-top: 10px;
+}
+.pd{
+	font-size: 25px;
+	margin-bottom: 6px;
+	margin-right: 40px;
+}
+.list{
+	display: flex;
+	flex-direction: row;
+	margin-left: 35%;
+	font-size: 20px;
+}
+.edu{
+	font-size: 25px;/*fix the size of the text*/
+	margin-right: 15%;
+}
+.school{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+}
+.primary{
+	margin-left: 37%;
+}
+.pr{
+	margin-top: 18px;
+}
+.pri{
+	margin-left: 45px;
+}
+.high{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+}
+.post{
+	margin-left: 37%;
+}
+.po{
+	margin-top: 18px;
+}
+.college{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+}
+.col{
+	margin-left: 37%;
+}
+.coll{
+	margin-left: 45px;
+}
+.co{
+	margin-top: 18px;
+}
+.skill{
+	font-size: 25px;
+	margin-left: 100px;
+	
+}
+.learn{
+	margin-left: 35%;
+	margin-right: 50%;
+}
+
+
+.foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;/*list the content in row from start*/
+	width: 100%;
+	border-top-height: 10px;
+	border-top-style: dotted;
+}
+.h3{
+	margin: 10px;
+}
+@media screen and (max-width: 700px){/*make the page be responsive and easily viewed on every meida devices*/
+	.craft{
+		flex-wrap: wrap;	
+
+	}
+	.box1,.box2,.box3,.box4,.box5,.box6{
+		height: 40px;
+	}
+	.box{
+		margin-left: 1px;
+		width: 100%;
+		height: 80px;
+	}
+	section{
+		margin-left: 1px;
+		width: 400px;
+		height: 1000px;
+	}
+	.container{
+		flex-direction: column;/*wrap the content choosen*/ 
+	}
+	.name{
+		margin-left: 1px;
+	}
+	.pd{
+		margin-right: 300px;
+	}
+	.list{
+		margin-left: 1px;
+		width: 100%;
+	}
+	.second{
+		margin-top: 8px;
+	}
+	.edu{
+		margin-right: 60%;
+	}
+	.primary{
+		margin-left: 5px;
+	}
+	.pri{
+		margin-left: 1px;
+		margin-right: 200px;
+	}
+	.high{
+		margin-right: 600px;
+	}
+	.college{
+		margin-right: 600px;
+	}
+	.skill{
+		margin-left: 5px;
+		margin-right: 300px;
+	}
+	.learn{
+		margin-left: 5px;
+	}
+}

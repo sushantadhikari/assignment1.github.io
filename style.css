@@ -1,0 +1,112 @@
+body{
+	background: url("background.jpg"); 
+text-align: center;
+
+}
+.logo{
+
+	margin-right: 150px;
+}
+.craft{
+	display: inline-block;
+	display: flex;
+	flex-direction: row; 
+    width: 50%
+    height: 100px;
+    margin-left: 2%;
+    margin-top: 2px;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+}
+.left-column{
+   width: 48%;
+   height: 500px;
+   background: url("http://www.hdfondos.eu/pictures/2014/0624/1/sky-blue-background-wallpaper-7980.jpg");
+   margin-left: 30px;
+   margin-right: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   box-shadow: 15px 15px 15px;
+}
+.right-column{
+   width: 48%;
+   height: 500px;
+   background: url("https://www.walldevil.com/wallpapers/a77/background-wallpapers-color-abstract.jpg");
+   margin: 20px;
+  box-shadow: 15px 15px 15px;
+}
+
+.quote{
+	height: 400px;
+	width: 100%;
+}
+.box1{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+
+}
+a :hover{
+	background: #AADA69;
+
+}
+.box2{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box3{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box4{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box5{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box6{
+
+	height: 80px;
+	width: 130px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+
+}
+.create{
+font-family: cursive;
+color: pink;
+}
+.deep{
+	font-family: cursive;
+	color: white;
+}
+.foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+	border-top-height: 10px;
+	border-top-style: dotted;
+}
+.h3{
+	margin: 10px;
+}

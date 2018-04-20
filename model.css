@@ -1,0 +1,176 @@
+body{
+	background: url("background.jpg"); 
+text-align: center;
+
+}
+.logo{
+
+	margin-right: 370px;/*keeps space given in right*/
+	border-radius: 50%;
+}
+.craft{
+	display: inline-block;
+	display: flex;
+	flex-direction: row; 
+    width: 50%
+    height: 100px;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+.box1{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+
+}
+a :hover{/*change the color when touched by pointer*/
+	background: #AADA69;
+
+}
+.box2{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box3{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box4{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box5{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box6{
+
+	height: 80px;
+	width: 130px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.cover{
+	margin-top: 50px;
+}
+.intro{
+	margin-top: 20px;
+	margin-right: 90%;
+	font-size: 30px;
+}
+.introduction{
+font-size: 20px;
+}
+.WF{
+	margin-top: 20px;
+	margin-right: 75%;
+	font-size: 30px;
+}
+.wireframes{
+	font-size: 20px;
+}
+.first{
+	display: flex;
+	flex-direction: row;
+}
+.home{
+	margin-left: 60px;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.about{
+	margin-left: 60px;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+.cv{
+	margin-left:60px;
+	margin-top: 30px; 
+}
+.word{
+	display: flex;
+	flex-direction: row; 
+}
+.h{
+	margin-left: 10%;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.a{
+	margin-left: 20%;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.v{
+	margin-left: 30%;
+	margin-top: 30px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+	margin-left: 60px;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.model{
+	margin-left: 60px;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+.contact{
+	margin-left:60px;
+	margin-top: 30px; 
+}
+.pad{
+	display: flex;
+	flex-direction: row;
+}
+.s{
+	margin-left: 10%;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.m{
+	margin-left: 20%;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.c{
+	margin-left: 30%;
+	margin-top: 30px;
+}
+.foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+	border-top-height: 10px;
+	border-top-style: dotted;
+}
+.h3{
+	margin: 10px;
+}
+@media screen and (max-width: 500px){
+	.box1,.box2,.box3,.box4,.box5,.box6{
+		height: 40px;
+	}
+	.craft{
+		flex-wrap: wrap;	
+	}
+}

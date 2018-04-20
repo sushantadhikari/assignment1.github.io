@@ -1,0 +1,144 @@
+body{
+	background: url("background.jpg"); 
+text-align: center;
+
+}
+.logo{
+
+	margin-right: 370px;/*keeps space given in right*/
+	border-radius: 50%;/*reduce the edges by 50%*/
+}
+.craft{
+	display: inline-block;/*maintain in box*/
+	display: flex;
+	flex-direction: row; /*keep the given list in row*/
+    width: 50%
+    height: 100px;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+.sush{
+	margin: 30px; 
+	border-radius: 50%;
+
+}
+.container{
+	display: flex;
+	flex-direction: row;/*keep the given list in row*/
+	margin-bottom: 30px;
+}
+.left-column{
+   width: 48%;
+   height: 500px;
+   background: url("http://www.hdfondos.eu/pictures/2014/0624/1/sky-blue-background-wallpaper-7980.jpg");
+   margin-left: 30px;
+   margin-right: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   box-shadow: 15px 15px 15px;/*keep the shadow behind the box*/
+}
+.first{
+	font-size: 22px;
+}
+.second{
+	font-size: 22px;
+}
+.right-column{
+   width: 48%;
+   height: 500px;
+   background: url("https://www.walldevil.com/wallpapers/a77/background-wallpapers-color-abstract.jpg");
+   margin: 20px;
+  box-shadow: 15px 15px 15px;/*keep the shadow behind the box*/
+}
+
+
+.box1{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+
+}
+a :hover{/*change the color when touched by pointer*/
+	background: #AADA69;
+
+}
+.box2{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box3{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box4{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box5{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box6{
+
+	height: 80px;
+	width: 130px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+
+
+
+.foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;/*maintain the list from start*/
+	width: 100%;
+	border-top-height: 20px;
+	border-top-style: dotted;
+}
+.h3{
+	margin: 10px;
+}
+@media screen and (max-width: 1000px){/*make the page be responsive and easily viewed on every meida devices*/
+	.box1,.box2,.box3,.box4,.box5,.box6{
+		height: 40px;
+	}
+	.craft{
+		flex-wrap: wrap; /*wrap the list given*/	
+	}
+	.sush{
+		width: 200px;
+		height: 200px;
+		margin-left: 1px;
+	}
+	.container{
+		flex-direction: column;/*keep the list in column*/
+        
+	}
+	.left-column{
+		width: 300px;
+		height: 900px;
+		margin-left: 20px;
+	}
+	.right-column{
+		width: 300px;
+		height: 900px;
+	}
+	.foot{
+		width: 500px;
+	}
+}

@@ -1,0 +1,93 @@
+body{
+	background: url("background.jpg"); 
+text-align: center;
+
+}
+.logo{
+
+	margin-right: 370px;/*keeps space given in right*/
+	border-radius: 50%;
+}
+.craft{
+	display: inline-block;
+	display: flex;
+	flex-direction: row; 
+    width: 50%
+    height: 100px;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+.box1{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+
+}
+a :hover{/*change the color when touched by pointer*/
+	background: #AADA69;
+
+}
+.box2{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box3{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box4{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box5{
+
+	height: 80px;
+	width: 100px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.box6{
+
+	height: 80px;
+	width: 130px;
+	background: #75B2AF;
+	margin: 10px 10px 10px 10px;
+}
+.follow{
+	margin-top: 100px;
+	margin-right: 80%;
+	font-size: 40px;
+}
+.icon{
+	margin-right: 78%;
+}
+.foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+	border-top-height: 10px;
+	border-top-style: dotted;
+}
+.h3{
+	margin: 10px;
+}
+@media screen and (max-width: 500px){/*make the page be responsive and easily viewed on every meida devices*/
+	.box1,.box2,.box3,.box4,.box5,.box6{
+		height: 40px;
+	}
+	.craft{
+		flex-wrap: wrap;	
+	}
+}
