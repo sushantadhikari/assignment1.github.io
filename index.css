@@ -9,11 +9,11 @@ text-align: center;
 	border-radius: 50%;  /*reduce the edges by 50%*/
 }
 .craft{
-	display: inline-block;
-	display: flex;
+	display: inline-block;/*list the word as boxes in row*/
+	display: flex;/*property of css to maintain the list style*/
 	flex-direction: row; /*keep the list in row*/
-    width: 50%
-    height: 100px;
+    width: 50%;/*length of the box*/
+    height: 100px;/*length of the box*/
     margin-left:1%;/*keep space  given in left*/
     margin-top: 2px;/*keep space given in top*/
 
@@ -24,10 +24,11 @@ text-align: center;
 }
 .box1{
 
-	height: 80px;
-	width: 100px;
-	background: #75B2AF;
-	margin: 10px 10px 10px 10px;
+	height: 80px;/*breath of the box*/
+	width: 100px;/*lenght of the box*/
+	background: #75B2AF;/*attatch a background colour*/
+	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
+
 
 }
 a :hover{/*change the color when touched by pointer*/
@@ -36,38 +37,43 @@ a :hover{/*change the color when touched by pointer*/
 }
 .box2{
 
-	height: 80px;
-	width: 100px;
-	background: #75B2AF;
-	margin: 10px 10px 10px 10px;/*keep space in all sides*/
+	height: 80px;/*breath of the box*/
+	width: 100px;/*lenght of the box*/
+	background: #75B2AF;/*attatch a background colour*/
+	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
+
 }
 .box3{
 
-	height: 80px;
-	width: 100px;
-	background: #75B2AF;
-	margin: 10px 10px 10px 10px;/*keep space given in al side*/
+	height: 80px;/*breath of the box*/
+	width: 100px;/*lenght of the box*/
+	background: #75B2AF;/*attatch a background colour*/
+	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
+
 }
 .box4{
 
-	height: 80px;
-	width: 100px;
-	background: #75B2AF;
-	margin: 10px 10px 10px 10px;
+	height: 80px;/*breath of the box*/
+	width: 100px;/*lenght of the box*/
+	background: #75B2AF;/*attatch a background colour*/
+	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
+
 }
 .box5{
 
-	height: 80px;
-	width: 100px;
-	background: #75B2AF;
-	margin: 10px 10px 10px 10px;
+	height: 80px;/*breath of the box*/
+	width: 100px;/*lenght of the box*/
+	background: #75B2AF;/*attatch a background colour*/
+	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
+
 }
 .box6{
 
-	height: 80px;
-	width: 130px;
-	background: #75B2AF;
-	margin: 10px 10px 10px 10px;
+	height: 80px;/*breath of the box*/
+	width: 100px;/*lenght of the box*/
+	background: #75B2AF;/*attatch a background colour*/
+	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
+
 }
 
 .create{
@@ -75,11 +81,11 @@ font-family: cursive;/*write in different style*/
 color: pink;
 }
 .deep{
-	font-family: cursive;
-	color: white;
+	font-family: cursive;/*text writting style*/
+	color: white;/*choos the color*/
 }
 .foot{
-	display: flex;
+	display: flex;/*property of css to maintain the list style*/
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 100%;
@@ -99,6 +105,6 @@ color: pink;
 	}
 	.foot
 	{
-		flex-direction: column;
+		flex-direction: column;/*maintain the list in column*/
 	}
 }
