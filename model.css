@@ -65,7 +65,7 @@ a :hover{/*change the color when touched by pointer*/
 .box6{
 
 	height: 80px;/*breath of the box*/
-	width: 100px;/*lenght of the box*/
+	width: 130px;/*lenght of the box*/
 	background: #75B2AF;/*attatch a background colour*/
 	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
 
@@ -74,9 +74,9 @@ a :hover{/*change the color when touched by pointer*/
 	margin-top: 50px;
 }
 .intro{
-	margin-top: 20px;
+	margin-top: 20px;/*keep space in top*/
 	margin-right: 90%;
-	font-size: 30px;
+	font-size: 30px;/*fix the size of the text*/
 }
 .introduction{
 font-size: 20px;
@@ -84,10 +84,10 @@ font-size: 20px;
 .WF{
 	margin-top: 20px;
 	margin-right: 75%;
-	font-size: 30px;
+	font-size: 30px;/*fix the size of the text*/
 }
 .wireframes{
-	font-size: 20px;
+	font-size: 20px;/*fix the size of the text*/
 }
 
 .pad{
@@ -101,12 +101,12 @@ font-size: 20px;
 	font-size: 30px;
 }
 .mock{
-	font-size: 20px;
+	font-size: 20px;/*fix the size of the text*/
 }
 .top{
 	margin-top: 20px;
 	margin-right: 70%;
-	font-size: 30px;
+	font-size: 30px;/*fix the size of the text*/
 }
 .palm{
 	margin-top: 20px;
@@ -117,10 +117,10 @@ font-size: 20px;
 .valid{
 	margin-top: 20px;
 	margin-right: 80%;
-	font-size: 30px;
+	font-size: 30px;/*fix the size of the text*/
 }
 .val{
-	font-size: 20px;
+	font-size: 20px;/*fix the size of the text*/
 }
 .tlink{
 	margin-top: 20px;
@@ -151,7 +151,8 @@ font-size: 20px;
 		height: 40px;
 	}
 	.craft{
-		flex-wrap: wrap;	
+		flex-wrap: wrap;
+		margin-bottom: 350px;	
 	}
 	.cover{
 		width: 300px;

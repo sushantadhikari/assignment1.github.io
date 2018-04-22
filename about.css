@@ -54,7 +54,7 @@ text-align: center;
 
 .box1{
 
-height: 80px;/*breath of the box*/
+     height: 80px;/*breath of the box*/
 	width: 100px;/*lenght of the box*/
 	background: #75B2AF;/*attatch a background colour*/
 	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
@@ -100,7 +100,7 @@ a :hover{/*change the color when touched by pointer*/
 .box6{
 
 	height: 80px;/*breath of the box*/
-	width: 100px;/*lenght of the box*/
+	width: 120px;/*lenght of the box*/
 	background: #75B2AF;/*attatch a background colour*/
 	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
 
@@ -124,7 +124,9 @@ a :hover{/*change the color when touched by pointer*/
 		height: 40px;
 	}
 	.craft{
-		flex-wrap: wrap; /*wrap the list given*/	
+		display: flex;
+		flex-wrap: wrap; /*wrap the list given*/
+		margin-bottom: 350px;	
 	}
 	.sush{
 		width: 200px;
