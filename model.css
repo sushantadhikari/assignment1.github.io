@@ -83,44 +83,7 @@ font-size: 20px;
 .wireframes{
 	font-size: 20px;
 }
-.first{
-	display: flex;
-	flex-direction: row;
-}
-.home{
-	margin-left: 60px;
-	margin-right: 40px;
-	margin-top: 30px;
-}
-.about{
-	margin-left: 90px;
-	margin-top: 30px;
-	margin-right: 40px;
-}
-.cv{
-	margin-left:90px;
-	margin-top: 30px; 
-}
 
-
-.second{
-    display: flex;
-    flex-direction: row;
-}
-.social{
-	margin-left: 60px;
-	margin-right: 40px;
-	margin-top: 30px;
-}
-.model{
-	margin-left: 90px;
-	margin-top: 30px;
-	margin-right: 40px;
-}
-.contact{
-	margin-left:100px;
-	margin-top: 30px; 
-}
 .pad{
 	display: flex;
 	flex-direction: row;
@@ -153,6 +116,9 @@ font-size: 20px;
 	margin-top: 20px;
 	margin-right: 80%;
 	font-size: 30px;
+}
+.conc{
+	font-size: 20px;
 }
 .foot{
 	display: flex;
@@ -190,7 +156,15 @@ font-size: 20px;
     .desktop{
     	flex-direction: column;
     }
-
+    .vfirst{
+    	flex-direction: column;
+    }
+     .vsecond{
+    	flex-direction: column;
+    }
+     .vthird{
+    	flex-direction: column;
+    }
 	.foot{
 		flex-direction: column;
 
