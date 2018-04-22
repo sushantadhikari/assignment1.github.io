@@ -83,7 +83,7 @@ color: pink;
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 100%;
-	border-top-height: 10px;/*fix the height of the border*/
+	border-top-height:1px;/*fix the height of the border*/
 	border-top-style: dotted;/*keep border in dotted style*/
 }
 .h3{

@@ -90,4 +90,7 @@ a :hover{/*change the color when touched by pointer*/
 	.craft{
 		flex-wrap: wrap;	
 	}
+	.foot{
+		flex-direction: column;
+	}
 }

@@ -93,32 +93,16 @@ font-size: 20px;
 	margin-top: 30px;
 }
 .about{
-	margin-left: 60px;
+	margin-left: 90px;
 	margin-top: 30px;
 	margin-right: 40px;
 }
 .cv{
-	margin-left:60px;
+	margin-left:90px;
 	margin-top: 30px; 
 }
-.word{
-	display: flex;
-	flex-direction: row; 
-}
-.h{
-	margin-left: 10%;
-	margin-right: 40px;
-	margin-top: 30px;
-}
-.a{
-	margin-left: 20%;
-	margin-right: 40px;
-	margin-top: 30px;
-}
-.v{
-	margin-left: 30%;
-	margin-top: 30px;
-}
+
+
 .second{
     display: flex;
     flex-direction: row;
@@ -129,31 +113,46 @@ font-size: 20px;
 	margin-top: 30px;
 }
 .model{
-	margin-left: 60px;
+	margin-left: 90px;
 	margin-top: 30px;
 	margin-right: 40px;
 }
 .contact{
-	margin-left:60px;
+	margin-left:100px;
 	margin-top: 30px; 
 }
 .pad{
 	display: flex;
 	flex-direction: row;
 }
-.s{
-	margin-left: 10%;
-	margin-right: 40px;
-	margin-top: 30px;
+
+.design{
+	margin-top: 20px;
+	margin-right: 70%;
+	font-size: 30px;
 }
-.m{
-	margin-left: 20%;
-	margin-right: 40px;
-	margin-top: 30px;
+.mock{
+	font-size: 20px;
 }
-.c{
-	margin-left: 30%;
-	margin-top: 30px;
+
+
+.valid{
+	margin-top: 20px;
+	margin-right: 80%;
+	font-size: 30px;
+}
+.val{
+	font-size: 20px;
+}
+.tlink{
+	margin-top: 20px;
+	margin-right: 90%;
+	font-size: 30px;
+}
+.conclude{
+	margin-top: 20px;
+	margin-right: 80%;
+	font-size: 30px;
 }
 .foot{
 	display: flex;
@@ -172,5 +171,28 @@ font-size: 20px;
 	}
 	.craft{
 		flex-wrap: wrap;	
+	}
+	.cover{
+		width: 300px;
+		height: 500px;
+		margin-left: 2px;
+		margin-bottom: 100px;
+	}
+	.first{
+		flex-direction: column;
+	}
+    .second{
+    	flex-direction: column;
+    }
+    .desk{
+    	flex-direction: column;
+    }
+    .desktop{
+    	flex-direction: column;
+    }
+
+	.foot{
+		flex-direction: column;
+
 	}
 }

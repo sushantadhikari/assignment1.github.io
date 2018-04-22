@@ -135,7 +135,10 @@ form{
 		margin-right: 5px;
 	}
 	.map{
-		margin-left: 1px;
-		width: 250px;
+		margin-left: -120px;
+		margin-bottom: 30px;
+	}
+	.foot{
+		flex-direction: column;
 	}
 }
