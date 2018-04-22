@@ -64,7 +64,7 @@ a :hover{/*change the color when touched by pointer*/
 .box6{
 
 	height: 80px;/*breath of the box*/
-	width: 100px;/*lenght of the box*/
+	width: 130px;/*lenght of the box*/
 	background: #75B2AF;/*attatch a background colour*/
 	margin: 10px 10px 10px 10px;/*keep margin in all the sides*/
 
@@ -181,7 +181,8 @@ section{
 }
 @media screen and (max-width: 500px){/*make the page be responsive and easily viewed on every meida devices*/
 	.craft{
-		flex-wrap: wrap;	
+		flex-wrap: wrap;
+		/*margin-bottom: 350px;*/	
 
 	}
 	.box1,.box2,.box3,.box4,.box5,.box6{
