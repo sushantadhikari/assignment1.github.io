@@ -131,14 +131,14 @@ a :hover{/*change the color when touched by pointer*/
 	}
 	.left-column{
 		width: 300px;
-		height: 900px;
+		height: 770px;
 		margin-left: 20px;
 	}
 	.right-column{
 		width: 300px;
-		height: 900px;
+		height: 770px;
 	}
 	.foot{
-		width: 500px;
+		flex-direction: column;
 	}
 }

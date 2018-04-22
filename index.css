@@ -97,4 +97,8 @@ color: pink;
 	.craft{
 		flex-wrap: wrap;/*wrap the content choosen*/
 	}
+	.foot
+	{
+		flex-direction: column;
+	}
 }
